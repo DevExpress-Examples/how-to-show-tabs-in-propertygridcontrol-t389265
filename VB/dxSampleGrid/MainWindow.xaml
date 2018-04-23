@@ -1,0 +1,13 @@
+﻿<Window
+    x:Class="dxSampleGrid.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dxprg="http://schemas.devexpress.com/winfx/2008/xaml/propertygrid"
+    Title="DXApplication"
+    Width="1100"
+    Height="700"
+    SnapsToDevicePixels="True"
+    UseLayoutRounding="True">
+    <dxprg:PropertyGridControl SelectedObject="{Binding SelectedPerson}" ShowCategories="Tabbed" />
+
+</Window>
